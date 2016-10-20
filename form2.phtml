@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+   
+   
+<head>
+<meta charset="utf-8">
+<title>CONTACT</title>
+
+ <!-- Bootstrap core CSS -->
+     <link href="/bootstrap.min.css" type="text/css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+     <link href="ie10-viewport-bug-workaround.css" type="text/css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+     <link href="signin.css" type="text/css" rel="stylesheet">
+    
+</head>
+    
+    
+<body>
+<!-- action="index.php" method="post" -->  
+ 
+<div class="container">
+
+     <form method="post" class="form-signin" action="/">
+         
+        <h2 class="form-signin-heading">CONTACT</h2>
+
+        <label for="nom" class="sr-only">Nom</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Nom" required autofocus>
+
+        <label for="prenom" class="sr-only">Prénom</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Prénom" required>
+
+        <label for="promo" class="sr-only">Promotion</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Promotion" required>
+
+        <label for="classe" class="sr-only">Classe</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Classe" required>
+
+        <label for="sousgroupe" class="sr-only">Sous-groupe</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Sous-groupe" required>
+
+        <label for="groupeanglais" class="sr-only">Groupe d'anglais</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Groupe d'anglais" required>
+
+        <label for="groupelv2" class="sr-only">Groupe LV2</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="Groupe LV2" required>
+
+        <label for="telephone" class="sr-only">N° de téléphone</label>
+        <input type="text" id="inputPassword" class="form-control" placeholder="N° de téléphone" required>
+
+        <label for="mail" class="sr-only">Adresse e-mail</label>
+        <input type="email" id="inputEmail" class="form-control" placeholder="Adresse e-mail" required>
+       
+    
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Valider</button>
+      </form>
+
+    </div>    
+ 
+    
+<!--    
+<p>Nom
+<input type="text" name="nom" pattern="[A-Za-z]{2,20}" title="Votre nom doit contenir entre 2 et 20 lettres" required/>
+</p>
+    
+<p>Prénom
+<input type="text" name="prenom" pattern="[A-Za-z]{2,20}" title="Votre nom doit contenir entre 2 et 20 lettres" required/>
+</p>
+    
+<p>Promotion
+<input type="text" name="promo" pattern="[1-5]{1}A" title="Votre promotion doit être sous la forme suivante :XA où X est un chiffre compris entre 1 et 5" required/>
+</p>
+    
+<p>Classe
+<input type="text" name="classe" pattern="[\w]{2,5}" title="Votre classe doit contenir 2 à 5 caractères" required/>
+</p>
+    
+<p>Sous-groupe
+<input type="text" name="sousgroupe" pattern="[\w]{2,5}" title="Votre sous-groupe doit contenir 2 à 5 caractères" required />
+</p>
+    
+<p>Groupe d'anglais
+<input type="text" name="groupeanglais" pattern="[A-Z]{1}" title="Votre groupe d'anglais doit contenir 1 lettre majuscule" required/>
+</p>
+    
+<p>Groupe LV2
+<input type="text" name="groupelv2"  pattern="[A-Z]{1}[1-9]{1}" title="Votre groupe LV2 doit contenir une lettre majuscule suivie d'un chiffre"/>
+</p>
+    
+<p>N° de téléphone
+<input type="text" name="telephone" pattern="[0-9]{10}" title="Votre N° de téléphone doit contenir 10 chiffres" required/>
+</p>
+    
+<p>Adresse e-mail
+<input type="email" name="mail" required/>
+</p>
+    
+ <button type="submit" id="btn_validate" onclick="alert('Contact enregistré')">Valider</button> 
+    
+<!-- <input type="submit" value="Valider" /> -->
+
+    
+
+<form method="get" action="/affichage">
+    
+<input type="submit" value="Page suivante" />
+    
+
+</form>
+    
+</body>
+
+</html>
